@@ -11,7 +11,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        int num = 50;
+        int num = 10;
         Log.d("javatest",String.valueOf(num));
 
         num = 50;
