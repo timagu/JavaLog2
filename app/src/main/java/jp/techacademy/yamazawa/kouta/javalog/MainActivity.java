@@ -2,7 +2,7 @@ package jp.techacademy.yamazawa.kouta.javalog;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.log;
+import android.util.Log;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -11,6 +11,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        log.d("javatest","ログへの出力テスト");
+        int num = 50;
+        Log.d("javatest",String.valueOf(num));
+
+        num = 50;
+        Log.d("javatest",String.valueOf(num));
     }
 }
