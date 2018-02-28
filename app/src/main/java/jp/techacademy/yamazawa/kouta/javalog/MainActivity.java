@@ -11,16 +11,16 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        int num = 10+5-2*4/2;
-        Log.d("javatest","10+5-2*4/2=" + String.valueOf(num));
+        int num = 60;
 
-        boolean flag1 = true;
-        boolean flog2 = false;
-        Log.d("javatest","flag1 && flag2 = " + Strijng.valueof(flag1 && flag2));
-        Log.d("javatest","flag1 || flag2 = " + Strijng.valueof(flag1 || flag2));
-
-        int num2 = 10;
-        int num3 = 20;
-        Log.d("javatest","num2 < num3 = " + Strijng.valueof(num2 < num3));
+        if (num >= 90){
+            Log.d("javatest","優");
+        } else if (num >= 75){
+            Log.d("javatest","良");
+        } else if (num >= 60){
+            Log.d("javatest","可");
+        } else {
+            Log.d("javatest","不可");
+        }
     }
 }
