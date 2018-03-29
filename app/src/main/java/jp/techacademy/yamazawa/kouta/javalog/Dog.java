@@ -11,9 +11,9 @@ class Dog {
     int age;    //年齢
 
     //コンストラクタ
-    public Dog(){
-        name = "";
-        age = 0;
+    public Dog(String name,int age){
+        this.name = name;
+        this.age = age;
     }
 
     //メソッド
