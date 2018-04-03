@@ -6,9 +6,8 @@ package jp.techacademy.yamazawa.kouta.javalog;
 
 abstract class Animal {
     // メンバ変数
-    static String name;  // 名前
-    static int age;    // 年齢
-    static String hobby;   //考え
+    static String name = "幸太";  // 名前
+    static int age = 34;    // 年齢
 
-    abstract public void say();
+    //abstract public void say();
 }
